@@ -1,0 +1,170 @@
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+p {
+  line-height: 1.75; }
+
+a {
+  color: #fed136; }
+  a:hover, a:focus, a:active, a.active {
+    color: #fec503; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+#signup{
+	align-content: center;
+}
+
+#back_colour{
+	min-height: 30%;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222222; 
+}
+
+#sign_text {
+    color: white; 
+    font-size: 50px;
+    color: #222222;
+    margin-bottom: 50px;}
+
+ #form{
+ 	background-color: #ffffff;
+ 	margin: 100px 0px;
+ 	padding: 75px 0px;
+ }
+
+ #name{
+ 	width: 82%;
+ 	margin: 0px auto;
+ }
+
+ div#form {
+  background-position: center;
+  background-repeat: no-repeat;}
+  div#form .section-heading {
+    color: white; 
+    margin-bottom: 50px;}
+  div#form .form-group {
+    margin-bottom: 25px; }
+    div#form .form-group input,
+    div#form .form-group textarea {
+      padding: 20px;
+      font-size: 15px;
+      width: 70%;
+      border-width: 4px;
+      display: inline-block; }
+    div#form .form-group input.form-control {
+      height: auto; }
+    div#form .form-group textarea.form-control {
+      height: 236px; }
+  div#form .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none; }
+  div#form ::-webkit-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    color: #a9a9a9; }
+  div#form :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: #eeeeee; }
+  div#form ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: #eeeeee; }
+  div#form :-ms-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: #eeeeee; }
+  div#form .text-danger {
+    color: #e74c3c; }
+
+footer {
+  padding: 15px 0;
+  text-align: center;
+  bottom:0;
+  color: #ffffff;
+  margin-top: 75px;
+  background-color: #222222;
+    width:100%;
+    height:75px; }
+  footer span.copyright {
+    font-size: 90%;
+    font-size: 15px;
+    line-height: 40px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none; }
+
+    .btn-xl {
+  color: white;
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px; }
+  .btn-xl:focus, .btn-xl.focus, .btn-md {
+    color: white;
+    background-color: #fec503;
+    border-color: #b48b01; }
+  .btn-xl:hover {
+    color: white;
+    background-color: #fec503;
+    border-color: #f6bf01; }
+  .btn-xl:active, .btn-xl.active,
+  .open > .btn-xl.dropdown-toggle {
+    color: white;
+    background-color: #fec503;
+    border-color: #f6bf01; }
+    .btn-xl:active:hover, .btn-xl:active:focus, .btn-xl:active.focus, .btn-xl.active:hover, .btn-xl.active:focus, .btn-xl.active.focus,
+    .open > .btn-xl.dropdown-toggle:hover,
+    .open > .btn-xl.dropdown-toggle:focus,
+    .open > .btn-xl.dropdown-toggle.focus {
+      color: white;
+      background-color: #dcab01;
+      border-color: #b48b01; }
+  .btn-xl:active, .btn-xl.active,
+  .open > .btn-xl.dropdown-toggle {
+    background-image: none; }
+  .btn-xl.disabled:hover, .btn-xl.disabled:focus, .btn-xl.disabled.focus, .btn-xl[disabled]:hover, .btn-xl[disabled]:focus, .btn-xl[disabled].focus,
+  fieldset[disabled] .btn-xl:hover,
+  fieldset[disabled] .btn-xl:focus,
+  fieldset[disabled] .btn-xl.focus {
+    background-color: #fed136;
+    border-color: #fed136; }
+  .btn-xl .badge {
+    color: #fed136;
+    background-color: white; }
+
+    #branch{
+    	height: 65px;
+    	border-width: 4px;
+    	width: 70%;
+      margin: 0px auto;
+      margin-bottom: 30px;
+    }

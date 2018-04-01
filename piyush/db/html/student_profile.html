@@ -1,0 +1,163 @@
+<?php
+	session_start();
+	if(!isset($_session['student_id']))
+		header("location:index.html")
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>V J T I</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/student_profile.css" rel="stylesheet">
+
+    <!-- Temporary navbar container fix -->
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    </style>
+
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="#page-top">STUDENT NAME</a>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" id="nav_center_profile">
+                        <a class="nav-link" href="#">SETTINGS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LOGOUT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Tabs -->
+    <div id="main_tabs">
+        <div class="container">
+            <div class="tabs">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <button class="btn btn-xl active" id="tab_buttons" onclick="profile()">Profile</button>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="btn btn-xl" id="tab_buttons" onclick="company()">Companies</button>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="btn btn-xl" id="tab_buttons" onclick="applied()">Applied</button>
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="btn btn-xl" id="tab_buttons" onclick="offered()">Offered</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Profile -->
+    <div id="profile">
+    	<div class="container">
+		    <div class="row">
+		    	<div class="container">
+		    		<div id="edit_button">
+			    		<button class="btn btn-md" onclick="#">Edit</button>
+			    	</div>
+		    	</div>
+		    </div>
+    		<div class="row">
+	    		<div class="col-lg-12">
+		    			<h3>Name: </h3>
+	    		</div>
+    		</div>
+    		<hr>
+    		<div class="row">
+    			<div class="col-lg-12">
+		    		<h3>ID: </h3>
+	    		</div>
+    		</div>
+    		<hr>
+    		<div class="row">
+    			<div class="col-lg-12">
+		    		<h3>Branch: </h3>
+	    		</div>
+    		</div>
+    		<hr>
+    		<div class="row">
+    			<div class="col-lg-12">
+		    		<h3>CPI: </h3>
+	    		</div>
+    		</div>
+    		<hr>
+    		<div class="row">
+    			<div class="col-lg-12">
+		    		<h3>10th Marks: </h3>
+	    		</div>
+    		</div>
+    		<hr>
+    		<div class="row">
+    			<div class="col-lg-12">
+		    		<h3>12th Marks: </h3>
+	    		</div>
+    		</div>
+	    </div>
+    </div>
+
+    <!-- Company -->
+    <div id="company">
+	    <div class="container">
+	    	<h3>Company</h3>
+	    </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/student_profile.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>

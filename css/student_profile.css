@@ -1,0 +1,221 @@
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+p {
+  line-height: 1.75; }
+
+a {
+  color: #fed136; }
+  a:hover, a:focus, a:active, a.active {
+    color: #fec503; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0; } }
+
+::-moz-selection {
+  text-shadow: none;
+  background: #fed136; }
+
+::selection {
+  text-shadow: none;
+  background: #fed136; }
+
+img::selection {
+  background: transparent; }
+
+img::-moz-selection {
+  background: transparent; }
+
+body {
+  -webkit-tap-highlight-color: #fed136; }
+
+.apply{
+  padding: 10px;
+  align-content: center;
+  margin: 0px auto;
+}
+
+#main_tabs{
+  margin-bottom: 30px;
+}
+
+.main-section{
+  width: 75%;
+  margin: 0px auto;
+  padding-bottom: 40px;
+}
+
+.main-section .data-row{
+  color: black;
+  font-size: 23px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  
+}
+
+#profile{
+}
+
+.headi{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.seperator{
+  width: 100%;
+  background-color: #aaaaaa;
+  height: 1px;
+}
+
+.company-details{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.company-data-row{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-active{
+  display: block;
+}
+
+.section-inactive{
+  display: none;
+}
+
+
+#mainNav {
+  background-color: #222222; }
+  #mainNav .navbar-toggler {
+    border: 0;
+    color: white;
+    background-color: #fed136;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 13px;
+    right: 0; }
+  #mainNav .container {
+    padding: 0; }
+    #mainNav .container .navbar-brand {
+      color: #ffffff;
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      #mainNav .container .navbar-brand:hover, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand.active {
+        color: #fec503; }
+    #mainNav .container .navbar-nav .nav-item .nav-link {
+      font-size: 90%;
+      padding: 0.75em 0;
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: white; }
+      #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
+        color: #fed136; }
+
+
+    #mainNav .navbar-nav .nav-item .nav-link {
+      background-color: #222222;
+      padding: 1.1em 1em !important; 
+    }
+
+      #main_tabs{
+        text-align: center;
+        margin-top: 150px;
+      }
+
+
+.btn-xl {
+  color: white;
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+  color: white; }
+  .btn-xl:focus, .btn-xl.focus, .btn-md {
+    color: white;
+    background-color: #fec503;
+    border-color: #b48b01; }
+  .btn-xl:hover {
+    color: white;
+    background-color: #fec503;
+    border-color: #f6bf01; }
+  .btn-xl:active, .btn-xl.active,
+  .open > .btn-xl.dropdown-toggle {
+    color: white;
+    background-color: #fec503;
+    border-color: #f6bf01; }
+    .btn-xl:active:hover, .btn-xl:active:focus, .btn-xl:active.focus, .btn-xl.active:hover, .btn-xl.active:focus, .btn-xl.active.focus,
+    .open > .btn-xl.dropdown-toggle:hover,
+    .open > .btn-xl.dropdown-toggle:focus,
+    .open > .btn-xl.dropdown-toggle.focus {
+      color: white;
+      background-color: #dcab01;
+      border-color: #b48b01; }
+  .btn-xl:active, .btn-xl.active,
+  .open > .btn-xl.dropdown-toggle {
+    background-image: none; }
+  .btn-xl.disabled:hover, .btn-xl.disabled:focus, .btn-xl.disabled.focus, .btn-xl[disabled]:hover, .btn-xl[disabled]:focus, .btn-xl[disabled].focus,
+  fieldset[disabled] .btn-xl:hover,
+  fieldset[disabled] .btn-xl:focus,
+  fieldset[disabled] .btn-xl.focus {
+    background-color: #fed136;
+    border-color: #fed136; }
+  .btn-xl .badge {
+    color: #fed136;
+    background-color: white; }
+
+  .tabs{
+    width: 75%;
+    margin: 0px auto;
+  }
+
+  .tab_buttons{
+    min-width: 200px;
+    display:inline-block;
+    margin:3px;
+  }
+  .btn-md{
+  color: white;
+  background-color: #222222;
+  border-color: #222222;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 16px;
+  width: 150px;
+}
+
+.btn-md:hover {
+    color: white;
+    background-color: #006fcc;
+    border-color: #006fcd; }
+
+    #edit_button{
+      margin-top: 50px;
+      float:right;
+    }
